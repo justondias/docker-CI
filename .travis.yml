@@ -15,8 +15,7 @@ deploy:
   env: "DockerCi-env"
   bucket_name: "elasticbeanstalk-us-east-2-452966561568"
   bucket_path: "docker-CI"
-  on:
-    branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-
+  on:
+    branch: master
