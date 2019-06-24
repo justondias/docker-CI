@@ -9,7 +9,7 @@ script:
   - docker run juston/docker-react npm run ci_test -- --coverage
 
 deploy:
-  provider: elasticbeanstock
+  provider: elasticbeanstalk
   region: "us-east-2"
   app: "docker-CI"
   env: "DockerCi-env"
